@@ -1,0 +1,36 @@
+IAT 265 - D100, LAB: D102
+SFU FALL 2021
+
+Sounds used in this project were from
+the following sources:
+
+Sound Effects (by file name):
+knobTurn Sound Effect.
+Source: https://www.youtube.com/watch?v=35iLv9uprEU
+
+lighter Sound Effect.
+Source: Recorded from my phone.
+
+needleOn Sound Effect.
+Source: https://www.youtube.com/watch?v=9L5KTp7gIrA
+
+onOff Sound Effect.
+Source: https://www.youtube.com/watch?v=9L5KTp7gIrA
+
+candleCrackle Sound Effect.
+Source: https://www.youtube.com/watch?v=JLM2XaBq35U
+
+discSet Sound Effect.
+Source: https://www.youtube.com/watch?v=O1eGK-2Ak40
+
+capClick Sound Effect.
+Source: https://www.youtube.com/watch?v=c2kf85y6xus
+
+sleeveSlide Sound Effect.
+Source: https://www.youtube.com/watch?v=z-TG5ddpsLc
+
+sprayBottle Sound Effect.
+Source: https://www.youtube.com/watch?v=fR4WRbXC3Xw
+
+roomNoise Sound Effect.
+created by Deborah Wang (using Adobe Audition).
