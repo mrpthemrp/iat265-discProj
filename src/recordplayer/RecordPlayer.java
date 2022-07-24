@@ -17,7 +17,8 @@ import main.RoomPanel;
 import util.ImageLoader;
 
 public class RecordPlayer extends RoomObject implements DeviceAttachments {
-	private BufferedImage cover, coverOpen;
+	private final BufferedImage cover;
+    private final BufferedImage coverOpen;
 
 	public RecordPlayer(String filename, String soundName, Minim minim) {
 		super(filename, soundName, minim);
@@ -65,23 +66,17 @@ public class RecordPlayer extends RoomObject implements DeviceAttachments {
 	}
 
 	public boolean capHitClose(double mouseX, double mouseY) {
-		boolean returnValue = false;
-		if ((mouseX >= 85 && mouseX <= 700) 
-				&& (mouseY >= 480 && mouseY <= 580)) {
-			returnValue = true;
-		}
+		boolean returnValue = (mouseX >= 85 && mouseX <= 700)
+                && (mouseY >= 480 && mouseY <= 580);
 
-		return returnValue;
+        return returnValue;
 	}
 	
 	public boolean capHitOpen(double mouseX, double mouseY) {
-		boolean returnValue = false;
-		if ((mouseX >= 84 && mouseX <= 700) 
-				&& (mouseY >= 210 && mouseY <= 305)) {
-			returnValue = true;
-		}
+		boolean returnValue = (mouseX >= 84 && mouseX <= 700)
+                && (mouseY >= 210 && mouseY <= 305);
 
-		return returnValue;
+        return returnValue;
 	}
 
 	@Override

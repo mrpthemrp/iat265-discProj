@@ -24,16 +24,19 @@ public class Candle extends RoomObject {
 	public static final int CANDLE_BURN = 1;
 	public static final int CANDLE_BLOWNOUT = 2;
 
-	private float xStart;
+	private final float xStart;
 	private float xSeed;
 	private float ySeed;
-	private PApplet pa;
+	private final PApplet pa;
 	
 	public long time =0;
 
-	private BufferedImage wickClean, wickBurnt, flame;
-	private Ellipse2D.Double spark;
-	private int sparkX, sparkY;
+	private final BufferedImage wickClean;
+	private final BufferedImage wickBurnt;
+	private final BufferedImage flame;
+	private final Ellipse2D.Double spark;
+	private final int sparkX;
+	private final int sparkY;
 
 	public static int state = 0;
 

@@ -9,7 +9,7 @@ import java.awt.image.BufferedImage;
 import util.ImageLoader;
 import main.RoomPanel;
 public class Background {
-	private BufferedImage img;
+	private final BufferedImage img;
 	
 	public Background(String filename) {
 		img = ImageLoader.loadImage(filename);

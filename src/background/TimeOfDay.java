@@ -15,7 +15,7 @@ import util.ImageLoader;
 
 public class TimeOfDay {
 	private int timeState;
-	private RoomPanel pnl;
+	private final RoomPanel pnl;
 	BufferedImage skyStatus, skyFilter;
 
 	public TimeOfDay(RoomPanel rmPnl) {

@@ -14,9 +14,9 @@ import main.RoomObject;
 import main.RoomPanel;
 
 public class Vinyl extends RoomObject{
-	private String songInfo;
+	private final String songInfo;
 	private double spinRate;
-	private int index;
+	private final int index;
 	private boolean inSleeve;
 	private double minX, maxX, minY, maxY;
 
@@ -38,12 +38,9 @@ public class Vinyl extends RoomObject{
 	}
 
 	public boolean clicked(double x, double y) {
-		boolean clicked = false;
-		if (x > (xPos - ((double) img.getWidth() / 2 * 0.3)) && x < (xPos + ((double) img.getWidth() / 2 * 0.3))
+		boolean clicked = x > (xPos - ((double) img.getWidth() / 2 * 0.3)) && x < (xPos + ((double) img.getWidth() / 2 * 0.3))
 				&& y > (yPos - ((double) img.getHeight() / 2 * 0.2))
-				&& y < (yPos + ((double) img.getHeight()) / 2 * 0.2)) {
-			clicked = true;
-		}
+				&& y < (yPos + ((double) img.getHeight()) / 2 * 0.2);
 
 		return clicked;
 	}
@@ -138,11 +135,7 @@ public class Vinyl extends RoomObject{
 	}
 
 	public boolean isSelected(double mouseX, double mouseY) {
-		boolean value = false;
-
-		if ((mouseX >= minX && mouseX <= maxX) && (mouseY >= minY && mouseY <= maxY)) {
-			value = true;
-		}
+		boolean value = (mouseX >= minX && mouseX <= maxX) && (mouseY >= minY && mouseY <= maxY);
 
 		return value;
 

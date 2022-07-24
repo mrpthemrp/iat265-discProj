@@ -63,27 +63,17 @@ public class Lighter extends RoomObject {
 	}
 
 	public boolean hit(double x, double y) {
-		if (x >= (835) && x < (870)
-				&& (y > 420 && y < 483)) {
-			return true;
-
-		}
-		return false;
-	}
+        return x >= (835) && x < (870)
+                && (y > 420 && y < 483);
+    }
 	
 	public boolean hitCandle() {
-		if(xPos > 830 && xPos < 880 && yPos >550 && yPos < 590) {
-			return true;
-		}
-		return false;
-	}
+        return xPos > 830 && xPos < 880 && yPos > 550 && yPos < 590;
+    }
 
 	public boolean startPos() {
-		if(xPos > 833 && xPos < 867 && yPos > 436 && yPos < 481) {
-			return true;
-		}
-		return false;
-	}
+        return xPos > 833 && xPos < 867 && yPos > 436 && yPos < 481;
+    }
 	
 	public void setPos(double mouseX, double mouseY) {
 		this.xPos = mouseX;

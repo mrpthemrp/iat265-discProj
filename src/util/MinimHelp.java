@@ -18,7 +18,7 @@ public class MinimHelp {
             is = new FileInputStream(sketchPath(fileName));
         }
         catch(Exception e){
-            System.out.println(e.toString());
+            System.out.println(e);
         }
         return is;
     }

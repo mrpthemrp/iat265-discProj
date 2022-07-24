@@ -20,14 +20,10 @@ public class Needle extends RoomObject {
 	}
 
 	public boolean clicked(double x, double y) {
-		boolean clicked = false;
+		boolean clicked = (x >= 480 && x <= 545)
+                && (y >= 310 && y <= 340);
 
-		if((x >= 480 && x <= 545)
-			&&(y >= 310 && y <= 340)) {
-			clicked = true;
-		}
-
-		return clicked;
+        return clicked;
 	}
 
 	public void drawNeedleOnDisc(Graphics2D g2) {

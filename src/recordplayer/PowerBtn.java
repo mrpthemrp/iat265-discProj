@@ -25,12 +25,9 @@ public class PowerBtn extends Attachments implements DeviceAttachments {
 
 	@Override
 	public boolean hit(double mouseX, double mouseY) {
-		boolean returnValue = false;
-		if ((mouseX >= 145 && mouseX <= 175) 
-				&& (mouseY >= 595 && mouseY <= 610)) {
-			returnValue = true;
-		}
-		return returnValue;
+		boolean returnValue = (mouseX >= 145 && mouseX <= 175)
+                && (mouseY >= 595 && mouseY <= 610);
+        return returnValue;
 	}
 
 	@Override

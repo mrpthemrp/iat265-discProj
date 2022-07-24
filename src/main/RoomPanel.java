@@ -66,23 +66,23 @@ public class RoomPanel extends JPanel implements ActionListener {
 	public static int VINYL_SET = 7;
 	public static int SONG_PLAYING = 8;
 
-	private Screens screen;
-	private Background bkgd;
+	private final Screens screen;
+	private final Background bkgd;
 	private DeviceAttachments recPlyr;
-	private RecordPlayer recPlayer;
-	private Knob volKnob;
-	private Candle candle;
-	private Lighter lighter;
-	private PowerBtn powerBtn;
+	private final RecordPlayer recPlayer;
+	private final Knob volKnob;
+	private final Candle candle;
+	private final Lighter lighter;
+	private final PowerBtn powerBtn;
 	private AudioPlayer roomNoise;
-	private VinylBox box;
-	private PlayerBit bit;
-	private Needle needle;
+	private final VinylBox box;
+	private final PlayerBit bit;
+	private final Needle needle;
 	private Vinyl selectedVinyl;
-	private TimeOfDay windowBkgd;
-	private ArrayList<Vinyl> vinylList;
-	private ArrayList<Sleeve> sleeveList;
-	private AudioPlayer discSet;
+	private final TimeOfDay windowBkgd;
+	private final ArrayList<Vinyl> vinylList;
+	private final ArrayList<Sleeve> sleeveList;
+	private final AudioPlayer discSet;
 
 	// VOLUME CONSTANTS
 	private final float LOW = -3.0f;
@@ -99,10 +99,12 @@ public class RoomPanel extends JPanel implements ActionListener {
 	private int selectedSongIndex = 0;
 	private float songLengthPlayed, songStartTimeSec, songPauseTimeSec;
 
-	private Minim minim;
+	private final Minim minim;
 
-	private Timer t;
-	private long startTimeSec, currentTimeSec, previousSecond;
+	private final Timer t;
+	private final long startTimeSec;
+	private long currentTimeSec;
+	private long previousSecond;
 
 	private JFrame frame;
 
@@ -292,7 +294,7 @@ public class RoomPanel extends JPanel implements ActionListener {
 			windowBkgd.drawFilter(g2);
 			box.draw(g2);
 			sleeveList.get(0).draw(g2);
-			((VinylBox) box).drawFront(g2);
+			box.drawFront(g2);
 			recPlyr.drawAttachments(g2);
 			bit.draw(g2);
 			needle.draw(g2);
@@ -306,7 +308,7 @@ public class RoomPanel extends JPanel implements ActionListener {
 
 			if (state == RECORD_CLOSE) {
 				sleeveList.get(0).draw(g2);
-				((VinylBox) box).drawFront(g2);
+				box.drawFront(g2);
 				recPlyr.drawAttachments(g2);
 				bit.draw(g2);
 				needle.draw(g2);
@@ -536,11 +538,7 @@ public class RoomPanel extends JPanel implements ActionListener {
 					// powerBtn
 					if (powerBtn.hit(mouseX, mouseY)) {
 						powerBtn.getSound().play(0);
-						if (switchIsOn == true) {
-							switchIsOn = false;
-						} else {
-							switchIsOn = true;
-						}
+						switchIsOn = switchIsOn != true;
 					}
 
 					// needle

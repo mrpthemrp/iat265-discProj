@@ -14,7 +14,10 @@ import main.RoomPanel;
 import util.ImageLoader;
 
 public class Screens {
-	private BufferedImage welcome, instruct, refresh, exit;
+	private final BufferedImage welcome;
+    private final BufferedImage instruct;
+    private final BufferedImage refresh;
+    private final BufferedImage exit;
 	
 	private boolean selectedExit;
 

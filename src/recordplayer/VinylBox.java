@@ -17,7 +17,7 @@ import main.RoomPanel;
 import util.ImageLoader;
 
 public class VinylBox extends RoomObject {
-		private BufferedImage boxFront;
+		private final BufferedImage boxFront;
 		private Vinyl selectedVinyl;
 		
 	public VinylBox(String backImg, String soundName, Minim minim, String frontImg) {

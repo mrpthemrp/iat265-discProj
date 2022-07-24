@@ -16,8 +16,9 @@ import main.RoomPanel;
 import util.ImageLoader;
 
 public class Sleeve extends RoomObject {
-	private int index;
-	private BufferedImage sleeveSlant, allSleeves;
+	private final int index;
+	private final BufferedImage sleeveSlant;
+    private final BufferedImage allSleeves;
 
 	public Sleeve(String filename, String soundName, Minim minim, String slantImage, double x, double y, int index) {
 		super(filename, soundName, minim);
