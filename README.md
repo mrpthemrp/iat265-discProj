@@ -9,7 +9,7 @@ The purpose of this project was to design an interactive, media-rich program.
 ## Table of Contents
 1. [Project Description](#project-description)
 
-2. [Libraries and Forking Rules](#libraries-and-forking-rules)
+2. [Contribution and Forking Rules](#contribution-and-forking-rules)
 
 3. [Installation Guide](#installation-guide)
    1. [Software Requirements](#software-requirements)
@@ -21,7 +21,7 @@ The purpose of this project was to design an interactive, media-rich program.
 
 ## Project Description 
 
-## Libraries and Forking Rules
+## Contribution and Forking Rules
 :warning:***Please DO NOT FORK this project!***:warning:
 
 ## Installation Guide
