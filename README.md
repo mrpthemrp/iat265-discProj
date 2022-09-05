@@ -17,8 +17,11 @@ Watch a quick demo of the project through the link below!
 2. [Installation Guide](#installation-guide)
    1. [Software Requirements](#software-requirements)
    2. [Processing and Minim Libraries](#processing-and-minim-libraries)
+   3. [Steps](#steps)
 3. [Important Note](#important-note)
 4. [References](#references)
+    1. [Images](#images)
+    2. [Audio](#audio)
 5. [Citation Format](#citation-format)
 
 ## 1. Project Description and Summary
@@ -41,7 +44,66 @@ This project is the final assignment for IAT 265 \(Eric Yang\) at SFU.
   - Eclipse can be tricky to navigate if the user is not familiar with it.
 
 ### Processing and Minim Libraries
-Make sure to add the libraries to file path.
+The Minim library from the Processing language is included in this project.  
+They are already included in the project so it does not need to be downloaded externally.
+
+However, these libraries do need to be added to the file path, so make sure that all JAR files in the [src folder](/main/src) are added to the library module.
+
+### Steps
+***The following steps are intended for use with IntelliJ IDE***
+
+<details><summary><h4>Part I - Download Code and Open on IntelliJ</h4></summary><br>
+
+1. Download this project as a **ZIP file**.
+    - Click **'Code'** and then **'Download ZIP'**.
+2. Unzip the main folder - **'record-player-sim-main'**.
+    - This may take a few minutes, make sure your machine has ample space!
+3. Open **IntelliJ** and select **'Open'** or 'Open Project'.
+4. **Locate** where the **unzipped folder** from step 2 is on your machine. Click on the folder to open the project.
+    - Click 'Trust Project' when the pop-up appears.
+    - The project will now open.
+</details>
+<details><summary><h4>Part II - Configure Folders and Libraries</h4></summary><br>
+
+5. Configure the SDK by **File > Project Structure > Project Settings > Project**
+    - *We will set the JDK, Language Level, and Compiler output here.*
+6. Select ***JDK 16***
+    - It is HIGHLY important that JDK 16 is used! Project will not run otherwise.
+    - JDK 16.0.2 is preferred.
+7. Select **'Language Level' to be 16**
+    - If language level is not 16, the project will not run.
+8. Set **'Compiler output:'** to the out folder in the project folder
+    - Path: **record-player-sim-main/out**
+9. Go to **Libraries** which is **also under Project Settings**
+10. **Click on the "+" button** to add a library
+11. **Click "Java"** from the library options
+12. **Add 'core.jar'** and only this one jar!
+    - Path: **record-player-sim-main/src/core.jar**
+13. Once the core.jar is added, **click on the '+' under the core library**
+    - It should say 'Add Alt+Insert' on mouse hover
+14. Now **add all the remaining jar files** under the src folder
+    - Add all at the same time by holding down 'Shift' and selecting all.
+15. Click **'Apply'** and then **'OK'**
+</details>
+<details><summary><h4>Part III - Set Sources Root and Configurations</h4></summary><br>
+
+16. **Find the 'src' folder** in the project directory
+17. Right-click and **go to 'Mark Directory as'**
+18. **Click on 'Sources Root'** from the listed options
+    - The folder colour should turn blue after clicking.
+19. Let IntelliJ reconfigure things and once it is done, *go to click on 'Current File' to edit run configurations**
+    - Located near the run button; top right bar.
+20. Click **'Edit Configurations...'** and then **'Add new configuration...'**
+21. Click **'Application'** on the pop-up
+22. Under **'Build and run'** set SDK to 16 if not already, **type 'main.RoomApp' in the Main class bar**
+    - The bar will be highlighted red if no main class is specified.
+23. In **'Working directory:'** set the directory to **'src'**
+    - It currently is just the record-player-sim-main folder which will not allow the program to run correctly.
+24. **Change the name of the build** to something meaningful like 'RoomApp'
+    - On default it is just 'Unnamed'
+25. Click **'Apply'** and then **'OK'**
+26. The project is now ready to run!
+</details>
 
 ## 3. Important Note
 Console will print the following warning message:
