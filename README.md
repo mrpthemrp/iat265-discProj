@@ -2,10 +2,12 @@
 
 This repository contains a media-rich, interactive record player simulation using Java Swing.
 
-:warning: ***Please DO NOT FORK this repository/project!*** :warning:  
+:warning: ***Please DO NOT FORK this repository/project!*** :warning:
+
 This project is not intended to be open-source, feel free to use it as a reference but DO NOT FORK!  
 If used as reference, please cite by providing link to project and author name \([see section below](#citation-format)\).
 
+  
 Watch a quick demo of the project through the link below!  
 :vhs: **[Video Demo Link](https://youtu.be/MswxSEbKJG8)**
 
