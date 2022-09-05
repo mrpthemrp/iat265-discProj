@@ -5,7 +5,7 @@ This repository contains a media-rich, interactive record player simulation usin
 :warning: ***Please DO NOT FORK this repository/project!*** :warning:
 
 This project is not intended to be open-source, feel free to use it as a reference but DO NOT FORK!  
-If used as reference, please cite by providing link to project and author name \([see section below](#citation-format)\).
+If used as reference, please cite by providing link to project and author name \([see section below](#5-citation-format)\).
 
   
 Watch a quick demo of the project through the link below!  
