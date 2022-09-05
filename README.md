@@ -28,7 +28,26 @@ Watch a quick demo of the project through the link below!
 
 This project is the final assignment for IAT 265 \(Eric Yang\) at SFU.
 
+This project runs a Java Swing program that allows the user to play a song on a simulated record player. The user is able to adjust the volume of the song from the record player (LOW, MEDIUM, HIGH) and also pause the song by toggling the on and off button. 
+
+The simulation will show the passing of time by changing backgrounds and lighting, based on different times of day. 
+
+After a song is finished playing, the user will have the option to play another song.  
+If this option is selected, the program will refresh itself and allow the user to select another song.
+
+If the user chooses to exit the program, then the program will terminate.
+
+**See [video demo](#record-player-simulation-dvd) for more comprehensive walkthrough.**
+
 ### :sparkles: Project Takeaways
+
+- Practiced [OOP/D](https://en.wikipedia.org/wiki/Object-oriented_programming) for the first time
+    - Hence why this project is not the best example of OOP/D
+- Utilized design and code skills to create an interactive simulation
+- Worked with external image and sound files using Java for the first time
+- Built my first ever Java Swing program
+
+To conclude, this project opened the doors of OOP/D for me and taught me an abundance of knowledge on Java and working with media-rich programs.
 
 ## 2. Installation Guide
 ***This project was created through Eclipse but has been tested to run on both IntelliJ and Eclipse.***
