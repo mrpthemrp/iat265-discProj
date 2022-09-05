@@ -2,27 +2,28 @@
 
 This repository contains a media-rich, interactive record player simulation using Java Swing.
 
-:vhs: Watch a quick demo of the project through the link below!  
-**[Video Demo Link](https://youtu.be/MswxSEbKJG8)**
+:warning: ***Please DO NOT FORK this repository/project!*** :warning:  
+This project is not intended to be open-source. Feel free to use it as a reference but DO NOT FORK!  
+If used as reference, please cite by providing link to project and author name \([see section below](#citation-format)\).
+
+Watch a quick demo of the project through the link below!  
+:vhs: **[Video Demo Link](https://youtu.be/MswxSEbKJG8)**
 
 ## Table of Contents
 1. [Project Description and Summary](#project-description-and-summary)
    1. [Project Takeaways](#project-takeaways)
-2. [Contribution and Forking Rules](#contribution-and-forking-rules)
-3. [Installation Guide](#installation-guide)
+2. [Installation Guide](#installation-guide)
    1. [Software Requirements](#software-requirements)
    2. [Processing and Minim Libraries](#processing-and-minim-libraries)
-4. [Important Note](#important-note)
-5. [References](#references)
+3. [Important Note](#important-note)
+4. [References](#references)
+5. [Citation Format](#citation-format)
 
 ## Project Description and Summary
 
 This project is the final assignment for IAT 265 \(Eric Yang\) at SFU.
 
 ### Project Takeaways
-
-## Contribution and Forking Rules
-:red_square::warning: ***Please DO NOT FORK this project!*** :warning::red_square:
 
 ## Installation Guide
 ***This project was created through Eclipse but has been tested to run on both IntelliJ and Eclipse.***
@@ -66,6 +67,12 @@ All graphics are of my own creation using Adobe Illustrator and Photoshop, excep
   - **[Music Citations](/references/SongsReferencesDoc.txt)**
 
 Adobe Audition was used to mix and edit sounds/songs.
+
+## Citation Format
+If using this project as a reference please copy and paste the following into your references/citations:
+```diff
+??
+```
 
 ---
 Last Code Update Date: July 2022
