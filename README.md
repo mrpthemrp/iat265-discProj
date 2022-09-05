@@ -1,28 +1,28 @@
 # Record Player Simulation :dvd:
 
-This 
+This repository contains a media-rich, interactive record player simulation using Java Swing.
 
-The purpose of this project was to design an interactive, media-rich program.
-
+:vhs: Watch a quick demo of the project through the link below!  
 **[Video Demo Link](https://youtu.be/MswxSEbKJG8)**
 
 ## Table of Contents
-1. [Project Description](#project-description)
-
+1. [Project Description and Summary](#project-description-and-summary)
+   1. [Project Takeaways](#project-takeaways)
 2. [Contribution and Forking Rules](#contribution-and-forking-rules)
-
 3. [Installation Guide](#installation-guide)
    1. [Software Requirements](#software-requirements)
    2. [Processing and Minim Libraries](#processing-and-minim-libraries)
-   
 4. [Important Note](#important-note)
-
 5. [References](#references)
 
-## Project Description 
+## Project Description and Summary
+
+This project is the final assignment for IAT 265 \(Eric Yang\) at SFU.
+
+### Project Takeaways
 
 ## Contribution and Forking Rules
-:warning:***Please DO NOT FORK this project!***:warning:
+:red_square::warning: ***Please DO NOT FORK this project!*** :warning::red_square:
 
 ## Installation Guide
 ***This project was created through Eclipse but has been tested to run on both IntelliJ and Eclipse.***
