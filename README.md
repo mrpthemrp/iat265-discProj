@@ -11,29 +11,29 @@ If used as reference, please cite by providing link to project and author name \
 Watch a quick demo of the project through the link below!  
 :vhs: **[Video Demo Link](https://youtu.be/MswxSEbKJG8)**
 
-## Table of Contents
-1. [Project Description and Summary](#project-description-and-summary)
-   1. [Project Takeaways](#project-takeaways)
-2. [Installation Guide](#installation-guide)
-   1. [Software Requirements](#software-requirements)
-   2. [Processing and Minim Libraries](#processing-and-minim-libraries)
-   3. [Steps](#steps)
-3. [Important Note](#important-note)
-4. [References](#references)
-    1. [Images](#images)
-    2. [Audio](#audio)
-5. [Citation Format](#citation-format)
+## :bookmark_tabs: Table of Contents
+1. [Project Description and Summary](#1-project-description-and-summary)
+   1. [Project Takeaways](#sparkles-project-takeaways)
+2. [Installation Guide](#2-installation-guide)
+   1. [Software Requirements](#computer-software-requirements)
+   2. [Processing and Minim Libraries](#books-processing-and-minim-libraries)
+   3. [Steps](#memo-steps)
+3. [Important Note](#3-important-note)
+4. [References](#4-references)
+    1. [Images](#art-images)
+    2. [Audio](#headphones-audio)
+5. [Citation Format](#5-citation-format)
 
 ## 1. Project Description and Summary
 
 This project is the final assignment for IAT 265 \(Eric Yang\) at SFU.
 
-### Project Takeaways
+### :sparkles: Project Takeaways
 
 ## 2. Installation Guide
 ***This project was created through Eclipse but has been tested to run on both IntelliJ and Eclipse.***
 
-### Software Requirements
+### :computer: Software Requirements
 - **Windows OS** 
   - *This project has not been tested on MacOS!*  
     It may run into errors due to backslash and indexing differences between Windows and MacOS.
@@ -43,13 +43,13 @@ This project is the final assignment for IAT 265 \(Eric Yang\) at SFU.
     - Either Ultimate or Community version works.
   - Eclipse can be tricky to navigate if the user is not familiar with it.
 
-### Processing and Minim Libraries
+### :books: Processing and Minim Libraries
 The Minim library from the Processing language is included in this project.  
 They are already included in the project so it does not need to be downloaded externally.
 
 However, these libraries do need to be added to the file path, so make sure that all JAR files in the [src folder](/main/src) are added to the library module.
 
-### Steps
+### :memo: Steps
 ***The following steps are intended for use with IntelliJ IDE***
 
 <details><summary><h4>Part I - Download Code and Open on IntelliJ</h4></summary><br>
@@ -117,14 +117,14 @@ does not recognize certain custom tags from Adobe Audition.
 ## 4. References
 All references to work that is not my own are in the **[references folder](/references)**.
 
-### Images
+### :art: Images
 - Images are in the **[assets folder](/assets)**.
   - Images in the **[sleeves folder](/assets/sleeves)** have the same reference as the songs associated with them.
 
 All graphics are of my own creation using Adobe Illustrator and Photoshop, except for the vinyl sleeves (see note above).  
 
 
-### Audio
+### :headphones: Audio
 - Sound effects are in the **[sounds folder](/assets/sounds)**.
   - **[Sounds Citations](/references/SoundsReferencesDoc.txt)**
 - Music files are in the **[songs folder](/assets/songs)**.
