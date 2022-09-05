@@ -62,22 +62,21 @@ public class Vinyl extends RoomObject{
 			if(this.inSleeve) {
 				g2.translate( RoomPanel.W_WIDTH / 2 -450, RoomPanel.W_HEIGHT / 2 +30);
 				g2.scale(0.3, 0.56);
-				int constantY =0 - RoomPanel.HEIGHT/2 - 335;
+				int constantY = -RoomPanel.HEIGHT / 2 - 335;
 				g2.drawImage(img,  (int) xPos, constantY, RoomPanel.W_WIDTH, RoomPanel.W_HEIGHT, null);
 				g2.setTransform(at);
 				
 			}else {
 				g2.translate(xPos, yPos);
 				g2.scale(0.3, 0.56);
-				g2.drawImage(img, 0 - (int) xPos, 0 - (int) yPos, RoomPanel.W_WIDTH, RoomPanel.W_HEIGHT, null);
+				g2.drawImage(img, -(int) xPos, -(int) yPos, RoomPanel.W_WIDTH, RoomPanel.W_HEIGHT, null);
 				g2.setTransform(at);
 			}
 			
 		}
 	}
 
-	// this dude saved this code, reference:
-//	https://www.youtube.com/watch?v=vHfGiTFWoc4
+	// Affine Transform reference: https://www.youtube.com/watch?v=vHfGiTFWoc4
 	public void rotateVinyl(Graphics2D g2) {
 
 		double translateX = RoomPanel.W_WIDTH / 3 - 253;

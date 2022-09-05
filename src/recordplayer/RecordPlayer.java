@@ -22,8 +22,8 @@ public class RecordPlayer extends RoomObject implements DeviceAttachments {
 
 	public RecordPlayer(String filename, String soundName, Minim minim) {
 		super(filename, soundName, minim);
-		cover = ImageLoader.loadImage("assets/recordPlayer/recordCap.png");
-		coverOpen = ImageLoader.loadImage("assets/recordPlayer/recordCapOpen.png");
+		cover = ImageLoader.loadImage("../assets/recordPlayer/recordCap.png");
+		coverOpen = ImageLoader.loadImage("../assets/recordPlayer/recordCapOpen.png");
 	}
 
 	public void drawCover(Graphics2D g2) {
@@ -60,21 +60,9 @@ public class RecordPlayer extends RoomObject implements DeviceAttachments {
 		g2.setTransform(at);
 	}
 
-	public boolean hit(RoomObject obj) {
-		return ((obj.xPos >= getX() + 200 && obj.xPos <= getX() + 348)
-				&& (obj.yPos >= getY() + 18 && obj.yPos <= getY() + 70));
-	}
-
 	public boolean capHitClose(double mouseX, double mouseY) {
 		boolean returnValue = (mouseX >= 85 && mouseX <= 700)
                 && (mouseY >= 480 && mouseY <= 580);
-
-        return returnValue;
-	}
-	
-	public boolean capHitOpen(double mouseX, double mouseY) {
-		boolean returnValue = (mouseX >= 84 && mouseX <= 700)
-                && (mouseY >= 210 && mouseY <= 305);
 
         return returnValue;
 	}

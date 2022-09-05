@@ -9,7 +9,7 @@ import java.io.InputStream;
 public class MinimHelp {
 
     public String sketchPath( String fileName ) {
-        return "assets/"+fileName;
+        return "../assets/"+fileName;
     }
 
     public InputStream createInput(String fileName) {

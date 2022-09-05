@@ -22,8 +22,8 @@ public class Lighter extends RoomObject {
 
 	public Lighter(String filename, String soundName, Minim minim) {
 		super(filename, soundName, minim);
-		top = ImageLoader.loadImage("assets/candle/lightTop.png");
-		lightOn = ImageLoader.loadImage("assets/candle/lightOn.png");
+		top = ImageLoader.loadImage("../assets/candle/lightTop.png");
+		lightOn = ImageLoader.loadImage("../assets/candle/lightOn.png");
 		on = false;
 	}
 
@@ -49,7 +49,7 @@ public class Lighter extends RoomObject {
 			AffineTransform at = g2.getTransform();
 			g2.translate(xPos, yPos);
 			g2.scale(0.03, 0.09);
-			g2.drawImage(temp, 0 - (int) xPos, 0 - (int) yPos, RoomPanel.W_WIDTH, RoomPanel.W_HEIGHT, null);
+			g2.drawImage(temp, -(int) xPos, -(int) yPos, RoomPanel.W_WIDTH, RoomPanel.W_HEIGHT, null);
 			g2.setTransform(at);
 		}
 	}

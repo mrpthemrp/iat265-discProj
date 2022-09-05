@@ -21,17 +21,5 @@ public class ImageLoader {
 		}
 		return img;
 	}
-	
-	public static boolean saveImage(BufferedImage img, String fileName, String fileFormat) {
-		try {
-
-			File saveFile = new File(fileName + "." + fileFormat);
-			ImageIO.write(img, fileFormat, saveFile);
-
-		} catch (IOException e) {
-			return false;
-		}
-		return true;
-	}
 }
 

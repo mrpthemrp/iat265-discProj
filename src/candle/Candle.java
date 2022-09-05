@@ -42,9 +42,9 @@ public class Candle extends RoomObject {
 
 	public Candle(String filename, String soundName, Minim minim) {
 		super(filename, soundName, minim);
-		wickClean = ImageLoader.loadImage("assets/candle/wickNormal.png");
-		wickBurnt = ImageLoader.loadImage("assets/candle/wickBurnt.png");
-		flame = ImageLoader.loadImage("assets/candle/fireLarge.png");
+		wickClean = ImageLoader.loadImage("../assets/candle/wickNormal.png");
+		wickBurnt = ImageLoader.loadImage("../assets/candle/wickBurnt.png");
+		flame = ImageLoader.loadImage("../assets/candle/fireLarge.png");
 		spark = new Ellipse2D.Double(0, 0, 2, 2);
 		sparkX = RoomPanel.W_WIDTH / 2 + 235;
 		sparkY = RoomPanel.W_HEIGHT / 2 + 195;

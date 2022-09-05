@@ -22,10 +22,10 @@ public class Screens {
 	private boolean selectedExit;
 
 	public Screens() {
-		welcome = ImageLoader.loadImage("assets/screens/welcomeScreen.png");
-		instruct = ImageLoader.loadImage("assets/screens/instructionsScreen.png");
-		refresh = ImageLoader.loadImage("assets/screens/restartScreen.png");
-		exit = ImageLoader.loadImage("assets/screens/exitScreen.png");
+		welcome = ImageLoader.loadImage("../assets/screens/welcomeScreen.png");
+		instruct = ImageLoader.loadImage("../assets/screens/instructionsScreen.png");
+		refresh = ImageLoader.loadImage("../assets/screens/restartScreen.png");
+		exit = ImageLoader.loadImage("../assets/screens/exitScreen.png");
 		selectedExit = false;
 	}
 

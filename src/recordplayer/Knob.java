@@ -47,13 +47,13 @@ public class Knob extends Attachments implements DeviceAttachments {
 			&&(mouseY >= 510 && mouseY <= 560)) {
 			if(knobState ==0) {
 				knobState =1;
-				img = ImageLoader.loadImage("assets/recordPlayer/volKnobMid.png");
+				img = ImageLoader.loadImage("../assets/recordPlayer/volKnobMid.png");
 			}else if(knobState ==1) {
 				knobState =2;
-				img = ImageLoader.loadImage("assets/recordPlayer/volKnobHigh.png");
+				img = ImageLoader.loadImage("../assets/recordPlayer/volKnobHigh.png");
 			}else if(knobState ==2) {
 				knobState =0;
-				img = ImageLoader.loadImage("assets/recordPlayer/volKnobLow.png");
+				img = ImageLoader.loadImage("../assets/recordPlayer/volKnobLow.png");
 			}
 			hit = true;
 		}

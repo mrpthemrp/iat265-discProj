@@ -23,7 +23,7 @@ public class Sleeve extends RoomObject {
 	public Sleeve(String filename, String soundName, Minim minim, String slantImage, double x, double y, int index) {
 		super(filename, soundName, minim);
 		this.sleeveSlant = ImageLoader.loadImage(slantImage);
-		allSleeves = ImageLoader.loadImage("assets/sleeves/sleevesAll.png");
+		allSleeves = ImageLoader.loadImage("../assets/sleeves/sleevesAll.png");
 		xPos = x;
 		yPos = y;
 		this.index = index;
@@ -59,10 +59,6 @@ public class Sleeve extends RoomObject {
 		g2.scale(0.2, 0.4);
 		g2.drawImage(temp, 0, 0, RoomPanel.W_WIDTH, RoomPanel.W_HEIGHT, null);
 		g2.setTransform(at);
-	}
-
-	public int getIndex() {
-		return this.index;
 	}
 
 	@Override

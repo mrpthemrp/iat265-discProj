@@ -26,20 +26,20 @@ public class TimeOfDay {
 	public void updateTimeOfDay() {
 		timeState = pnl.windowState;
 		if (timeState == RoomPanel.SUNRISE) {
-			skyStatus = ImageLoader.loadImage("assets/sky/sunrise.png");
-			skyFilter = ImageLoader.loadImage("assets/skyFilter/sunriseFilter.png");
+			skyStatus = ImageLoader.loadImage("../assets/sky/sunrise.png");
+			skyFilter = ImageLoader.loadImage("../assets/skyFilter/sunriseFilter.png");
 		} else if (timeState == RoomPanel.MORNING) {
-			skyStatus = ImageLoader.loadImage("assets/sky/morning.png");
-			skyFilter = ImageLoader.loadImage("assets/skyFilter/morningFilter.png");
+			skyStatus = ImageLoader.loadImage("../assets/sky/morning.png");
+			skyFilter = ImageLoader.loadImage("../assets/skyFilter/morningFilter.png");
 		} else if (timeState == RoomPanel.AFTERNOON) {
-			skyStatus = ImageLoader.loadImage("assets/sky/afternoon.png");
-			skyFilter = ImageLoader.loadImage("assets/skyFilter/afternoonFilter.png");
+			skyStatus = ImageLoader.loadImage("../assets/sky/afternoon.png");
+			skyFilter = ImageLoader.loadImage("../assets/skyFilter/afternoonFilter.png");
 		} else if (timeState == RoomPanel.SUNSET) {
-			skyStatus = ImageLoader.loadImage("assets/sky/sunset.png");
-			skyFilter = ImageLoader.loadImage("assets/skyFilter/sunsetFilter.png");
+			skyStatus = ImageLoader.loadImage("../assets/sky/sunset.png");
+			skyFilter = ImageLoader.loadImage("../assets/skyFilter/sunsetFilter.png");
 		} else if (timeState == RoomPanel.EVENING) {
-			skyStatus = ImageLoader.loadImage("assets/sky/evening.png");
-			skyFilter = ImageLoader.loadImage("assets/skyFilter/eveningFilter.png");
+			skyStatus = ImageLoader.loadImage("../assets/sky/evening.png");
+			skyFilter = ImageLoader.loadImage("../assets/skyFilter/eveningFilter.png");
 		}
 	}
 
