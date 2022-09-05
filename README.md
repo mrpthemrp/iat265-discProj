@@ -47,7 +47,13 @@ If the user chooses to exit the program, then the program will terminate.
 - Worked with external image and sound files using Java for the first time
 - Built my first ever Java Swing program
 
-To conclude, this project opened the doors of OOP/D for me and taught me an abundance of knowledge on Java and working with media-rich programs.
+### :: Project Shortcomings
+
+- File paths are hard-coded, in future code this will not be the case
+    - Ran into a lot of debugging problems because of this.
+- Buttons are not JButtons but are based off of where the mouse is clicking on the screen.
+    - This is a deprecated method that is not easy to use.
+- Sounds are not lined up properly with actions, there are lags.
 
 ## 2. Installation Guide
 ***This project was created through Eclipse but has been tested to run on both IntelliJ and Eclipse.***
