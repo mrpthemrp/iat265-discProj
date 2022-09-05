@@ -3,7 +3,7 @@
 This repository contains a media-rich, interactive record player simulation using Java Swing.
 
 :warning: ***Please DO NOT FORK this repository/project!*** :warning:  
-This project is not intended to be open-source. Feel free to use it as a reference but DO NOT FORK!  
+This project is not intended to be open-source, feel free to use it as a reference but DO NOT FORK!  
 If used as reference, please cite by providing link to project and author name \([see section below](#citation-format)\).
 
 Watch a quick demo of the project through the link below!  
@@ -19,13 +19,13 @@ Watch a quick demo of the project through the link below!
 4. [References](#references)
 5. [Citation Format](#citation-format)
 
-## Project Description and Summary
+## 1. Project Description and Summary
 
 This project is the final assignment for IAT 265 \(Eric Yang\) at SFU.
 
 ### Project Takeaways
 
-## Installation Guide
+## 2. Installation Guide
 ***This project was created through Eclipse but has been tested to run on both IntelliJ and Eclipse.***
 
 ### Software Requirements
@@ -41,7 +41,7 @@ This project is the final assignment for IAT 265 \(Eric Yang\) at SFU.
 ### Processing and Minim Libraries
 Make sure to add the libraries to file path.
 
-## Important Note
+## 3. Important Note
 Console will print the following warning message:
 
 > ==== JavaSound Minim Error ====  
@@ -50,7 +50,7 @@ Console will print the following warning message:
 Please ignore these messages, they are only printed because Minim  
 does not recognize certain custom tags from Adobe Audition.
 
-## References
+## 4. References
 All references to work that is not my own are in the **[references folder](/references)**.
 
 ### Images
@@ -68,7 +68,7 @@ All graphics are of my own creation using Adobe Illustrator and Photoshop, excep
 
 Adobe Audition was used to mix and edit sounds/songs.
 
-## Citation Format
+## 5. Citation Format
 Example of citing this project as a reference:
 > Reference used for ImageBuffer: https://github.com/mrpthemrp/record-player-sim/blob/main/src/util/ImageLoader.java  
 > Date Accessed: August 2022  
