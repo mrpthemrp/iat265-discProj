@@ -70,13 +70,14 @@ If the user chooses to exit the program, then the program will terminate.
   - Eclipse can be tricky to navigate if the user is not familiar with it.
 
 ### :books: Processing and Minim Libraries
-The Minim library from the Processing language is included in this project.  
-They are already included in the project so it does not need to be downloaded externally.
+The Minim library from the Processing language is used to help process .mp3 files.  
+The libraries are already included in the project so it does not need to be downloaded externally.
 
-However, these libraries do need to be added to the file path, so make sure that all JAR files in the [src folder](/main/src) are added to the library module.
+However, these libraries do need to be added to the file path, so make sure that all JAR files in the [src folder](/main/src) are added to the library module.  
+See [step 9 - 15](#memo-steps) for details.
 
 ### :memo: Steps
-***The following steps are intended for use with IntelliJ IDE***
+***The following steps are intended for use with the IntelliJ IDE***
 
 <details><summary><h4>Part I - Download Code and Open on IntelliJ</h4></summary><br>
 
