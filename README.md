@@ -69,9 +69,16 @@ All graphics are of my own creation using Adobe Illustrator and Photoshop, excep
 Adobe Audition was used to mix and edit sounds/songs.
 
 ## Citation Format
+Example of citing this project as a reference:
+> Reference used for ImageBuffer: https://github.com/mrpthemrp/record-player-sim/blob/main/src/util/ImageLoader.java  
+> Date Accessed: August 2022  
+> Developer: [Deborah Wang](https://github.com/mrpthemrp)
+
 If using this project as a reference please copy and paste the following into your references/citations:
 ```diff
-??
+Reference for <code referenced>: <file/folder URL>
+Date Accessed: <date accessed>
+Developer: Deborah Wang (https://github.com/mrpthemrp)
 ```
 
 ---
