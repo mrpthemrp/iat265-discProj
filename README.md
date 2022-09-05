@@ -14,6 +14,7 @@ Watch a quick demo of the project through the link below!
 ## :bookmark_tabs: Table of Contents
 1. [Project Description and Summary](#1-project-description-and-summary)
    1. [Project Takeaways](#sparkles-project-takeaways)
+   2. [Project Shortcomings](#exclamation-project-shortcomings)
 2. [Installation Guide](#2-installation-guide)
    1. [Software Requirements](#computer-software-requirements)
    2. [Processing and Minim Libraries](#books-processing-and-minim-libraries)
@@ -47,7 +48,7 @@ If the user chooses to exit the program, then the program will terminate.
 - Worked with external image and sound files using Java for the first time
 - Built my first ever Java Swing program
 
-### :: Project Shortcomings
+### :exclamation: Project Shortcomings
 
 - File paths are hard-coded, in future code this will not be the case
     - Ran into a lot of debugging problems because of this.
